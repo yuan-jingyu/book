@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="book项目:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7da940ca-1b9e-4d68-a926-16e3b16170d7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="book: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="book: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="book: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="book: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="category: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="book: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="Jsp File" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/NJ_LS_Jave_2004/mvnhome/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lAdmLda07qocJSvoRSEq29BxuK" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.14666666" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.yuanjingyu.service" />
+      <recent name="com.yuanjingyu.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\天官赐福\book项目\src\main\webapp\WEB-INF\views" />
+      <recent name="E:\天官赐福\book项目\src\main\webapp" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\天官赐福\book项目\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.book">
+    <configuration name="BookServiceTest.getBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book项目" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuanjingyu.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yuanjingyu.service" />
+      <option name="MAIN_CLASS_NAME" value="com.yuanjingyu.service.BookServiceTest" />
+      <option name="METHOD_NAME" value="getBooks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategoryServiceTest.getCategorys" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book项目" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuanjingyu.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yuanjingyu.service" />
+      <option name="MAIN_CLASS_NAME" value="com.yuanjingyu.service.CategoryServiceTest" />
+      <option name="METHOD_NAME" value="getCategorys" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.addUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book项目" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuanjingyu.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yuanjingyu.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.yuanjingyu.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="addUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.getUserEmailByUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book项目" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuanjingyu.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yuanjingyu.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.yuanjingyu.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="getUserEmailByUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.addUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book项目" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuanjingyu.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yuanjingyu.service" />
+      <option name="MAIN_CLASS_NAME" value="com.yuanjingyu.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="addUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="book" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.231" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_211\jre">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="book项目:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_book项目" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52848" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="book项目:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CategoryServiceTest.getCategorys" />
+      <item itemvalue="JUnit.BookServiceTest.getBooks" />
+      <item itemvalue="JUnit.UserMapperTest.getUserEmailByUser" />
+      <item itemvalue="JUnit.UserMapperTest.addUser" />
+      <item itemvalue="JUnit.UserServiceTest.addUser" />
+      <item itemvalue="Tomcat Server.book" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceTest.addUser" />
+        <item itemvalue="JUnit.UserMapperTest.addUser" />
+        <item itemvalue="JUnit.UserMapperTest.getUserEmailByUser" />
+        <item itemvalue="JUnit.BookServiceTest.getBooks" />
+        <item itemvalue="JUnit.CategoryServiceTest.getCategorys" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.018743109" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7da940ca-1b9e-4d68-a926-16e3b16170d7" name="Default Changelist" comment="" />
+      <created>1607043987776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607043987776</updated>
+      <workItem from="1607043990547" duration="9727000" />
+      <workItem from="1607053754186" duration="23133000" />
+      <workItem from="1607302279743" duration="936000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="250" y="129" width="1156" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607045644063">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="250" y="129" width="1156" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1607045644063" />
+    <state x="616" y="154" key="#com.intellij.ide.util.MemberChooser" timestamp="1607068791757">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="616" y="154" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1607068791757" />
+    <state x="510" y="443" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1607044059518">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="510" y="443" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1607044059518" />
+    <state x="618" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607045481402">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="618" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1607045481402" />
+    <state width="1858" height="591" key="GridCell.Tab.0.bottom" timestamp="1607081955516">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1858" height="591" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1607081955516" />
+    <state width="1858" height="591" key="GridCell.Tab.0.center" timestamp="1607081955515">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1858" height="591" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1607081955515" />
+    <state width="1858" height="591" key="GridCell.Tab.0.left" timestamp="1607081955515">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1858" height="591" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1607081955515" />
+    <state width="1858" height="591" key="GridCell.Tab.0.right" timestamp="1607081955516">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1858" height="591" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1607081955516" />
+    <state width="1858" height="591" key="GridCell.Tab.1.bottom" timestamp="1607081955516">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1858" height="591" key="GridCell.Tab.1.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1607081955516" />
+    <state width="1858" height="591" key="GridCell.Tab.1.center" timestamp="1607081955516">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1858" height="591" key="GridCell.Tab.1.center/0.40.1920.1040@0.40.1920.1040" timestamp="1607081955516" />
+    <state width="1858" height="591" key="GridCell.Tab.1.left" timestamp="1607081955516">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1858" height="591" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1607081955516" />
+    <state width="1858" height="591" key="GridCell.Tab.1.right" timestamp="1607081955516">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1858" height="591" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1607081955516" />
+    <state width="1776" height="507" key="GridCell.Tab.2.bottom" timestamp="1607081955508">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1776" height="507" key="GridCell.Tab.2.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1607081955508" />
+    <state width="1776" height="507" key="GridCell.Tab.2.center" timestamp="1607081955508">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1776" height="507" key="GridCell.Tab.2.center/0.40.1920.1040@0.40.1920.1040" timestamp="1607081955508" />
+    <state width="1776" height="507" key="GridCell.Tab.2.left" timestamp="1607081955508">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1776" height="507" key="GridCell.Tab.2.left/0.40.1920.1040@0.40.1920.1040" timestamp="1607081955508" />
+    <state width="1776" height="507" key="GridCell.Tab.2.right" timestamp="1607081955508">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1776" height="507" key="GridCell.Tab.2.right/0.40.1920.1040@0.40.1920.1040" timestamp="1607081955508" />
+    <state width="1580" height="344" key="GridCell.Tab.3.bottom" timestamp="1607072851536">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1580" height="344" key="GridCell.Tab.3.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1607072851536" />
+    <state width="1580" height="344" key="GridCell.Tab.3.center" timestamp="1607072851536">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1580" height="344" key="GridCell.Tab.3.center/0.40.1920.1040@0.40.1920.1040" timestamp="1607072851536" />
+    <state width="1580" height="344" key="GridCell.Tab.3.left" timestamp="1607072851536">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1580" height="344" key="GridCell.Tab.3.left/0.40.1920.1040@0.40.1920.1040" timestamp="1607072851536" />
+    <state width="1580" height="344" key="GridCell.Tab.3.right" timestamp="1607072851536">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1580" height="344" key="GridCell.Tab.3.right/0.40.1920.1040@0.40.1920.1040" timestamp="1607072851536" />
+    <state width="343" height="731" key="HiddenNamespacesPopup" timestamp="1607044506011">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="343" height="731" key="HiddenNamespacesPopup/0.40.1920.1040@0.40.1920.1040" timestamp="1607044506011" />
+    <state x="185" y="40" key="SettingsEditor" timestamp="1607044152571">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="185" y="40" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1607044152571" />
+    <state x="675" y="185" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607071807507">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="675" y="185" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1607071807507" />
+    <state x="-58" y="65" width="1920" height="867" key="new project wizard" timestamp="1607303211383">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="-58" y="65" width="1920" height="867" key="new project wizard/0.40.1920.1040@0.40.1920.1040" timestamp="1607303211383" />
+    <state x="74" y="65" key="refactoring.ChangeSignatureDialog" timestamp="1607060722768">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="74" y="65" key="refactoring.ChangeSignatureDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1607060722768" />
+    <state x="974" y="38" width="1009" height="1470" key="search.everywhere.popup" timestamp="1607047825273">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="974" y="38" width="1009" height="1470" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1607047825273" />
+  </component>
+</project>

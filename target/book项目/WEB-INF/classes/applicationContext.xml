@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+
+    <!--1.扫描包,将需要实例化的对象加入到ioc容器-->
+    <context:component-scan base-package="com.yuanjingyu">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <!--2.导入外部属性资源文件-->
+    <context:property-placeholder location="classpath:db.properties"></context:property-placeholder>
+
+    <!--3.配置数据库连接池 (来自Maven.Druid)-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+        <property name="url" value="${jdbc_url}" />
+        <property name="username" value="${jdbc_user}" />
+        <property name="password" value="${jdbc_password}" />
+
+        <property name="filters" value="stat" />
+
+        <property name="maxActive" value="20" />
+        <property name="initialSize" value="1" />
+        <property name="maxWait" value="60000" />
+        <property name="minIdle" value="1" />
+
+        <property name="timeBetweenEvictionRunsMillis" value="60000" />
+        <property name="minEvictableIdleTimeMillis" value="300000" />
+
+        <property name="testWhileIdle" value="true" />
+        <property name="testOnBorrow" value="false" />
+        <property name="testOnReturn" value="false" />
+
+        <property name="poolPreparedStatements" value="true" />
+        <property name="maxOpenPreparedStatements" value="20" />
+
+        <property name="asyncInit" value="true" />
+    </bean>
+
+    <!--4.配置平台事物管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <!--注入spring的DataSource-->
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <!--5.开启基于注解的声明式事务-->
+    <tx:annotation-driven transaction-manager="transactionManager"></tx:annotation-driven>
+
+    <!--6.创建SqlSessionFactory-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--6.1 注入平台事物管理器-->
+        <property name="dataSource" ref="dataSource"></property>
+        <!--6.2 mybatis核心配置文件-->
+        <property name="configLocation" value="classpath:mybatis.xml"></property>
+        <!--6.3 加载注解接口的映射文件-->
+        <property name="mapperLocations" value="classpath:mappers/*.xml"></property>
+        <!--6.4 类型别名-->
+        <property name="typeAliasesPackage" value="com.yuanjingyu.entity"></property>
+    </bean>
+
+    <!--7.spring和mybatis整合,将mybatis的接口接入到ioc容器中-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--7.1 扫描接口的包.注意:不能是子包-->
+        <property name="basePackage" value="com.yuanjingyu.mapper"></property>
+        <!--7.2 指定SqlSessionFactoryBeanName-->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
+    </bean>
+
+
+</beans>

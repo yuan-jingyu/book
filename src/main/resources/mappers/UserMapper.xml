@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yuanjingyu.mapper.UserMapper">
+
+    <!--添加用户-->
+    <insert id="addUser" parameterType="user">
+        insert into user(email,password,salt) values (#{email},#{password},#{salt})
+    </insert>
+
+
+    <!--根据用户邮箱查询用户-->
+    <select id="getUserEmailByUser" resultType="user" parameterType="String">
+        select * from  `user` where email=#{email}
+    </select>
+
+</mapper>
